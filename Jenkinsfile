@@ -2,7 +2,9 @@ pipeline {
     agent {
         label 'linux-maven-agent'
     }
-
+        options {
+        skipDefaultCheckout(true)
+    }
     environment {
         GITHUB_CREDS = credentials('Git-hub-package')
         JAVA_HOME    = tool 'jdk11'
