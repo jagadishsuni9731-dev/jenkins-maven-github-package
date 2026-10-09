@@ -13,7 +13,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/Nihal106/jenkins-maven-package</url>
+            <url>https://maven.pkg.github.com/jagadishsuni9731-dev/deploy-maven</url>
         </repository>
     </distributionManagement>
 
